@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -199,22 +199,25 @@
 				TargetAttributes = {
 					2A0ED3471FD4B5C100465A6B = {
 						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = DA7DW54Y73;
 						ProvisioningStyle = Automatic;
 					};
 					2A0ED35F1FD4B5C100465A6B = {
 						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = DA7DW54Y73;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2A0ED3471FD4B5C100465A6B;
 					};
 					2A0ED36A1FD4B5C200465A6B = {
 						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = DA7DW54Y73;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2A0ED3471FD4B5C100465A6B;
 					};
 				};
 			};
 			buildConfigurationList = 2A0ED3431FD4B5C100465A6B /* Build configuration list for PBXProject "iosCalc" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -433,10 +436,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DA7DW54Y73;
 				INFOPLIST_FILE = iosCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aac.iosCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,10 +451,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DA7DW54Y73;
 				INFOPLIST_FILE = iosCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aac.iosCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
